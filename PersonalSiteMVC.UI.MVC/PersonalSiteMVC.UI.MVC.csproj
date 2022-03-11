@@ -211,6 +211,7 @@
     <Content Include="Content\img\carousel1.jpg" />
     <Content Include="Content\img\carousel2.jpg" />
     <Content Include="Content\img\carousel3.jpg" />
+    <Content Include="Content\img\DungeonAppThumbnail.png" />
     <Content Include="Content\img\Image-1.jpg" />
     <Content Include="Content\img\jumbotron1.jpg" />
     <Content Include="Content\img\lightbox\close.png" />
@@ -218,6 +219,7 @@
     <Content Include="Content\img\lightbox\next.png" />
     <Content Include="Content\img\lightbox\prev.png" />
     <Content Include="Content\img\marker.png" />
+    <Content Include="Content\img\MathletesThumbnail.png" />
     <Content Include="Content\img\person-1.jpg" />
     <Content Include="Content\img\person-2.jpg" />
     <Content Include="Content\img\person-3.png" />
@@ -389,6 +391,9 @@
     <Content Include="_Archive\js\lightbox.min.map" />
     <Content Include="Views\Shared\OriginalLayout.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Home\Fed1Studio.cshtml" />
+    <Content Include="Views\Home\DungeonApp.cshtml" />
+    <Content Include="Views\Home\StoreFrontApp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

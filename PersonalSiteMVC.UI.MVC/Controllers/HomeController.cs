@@ -11,7 +11,6 @@ namespace PersonalSiteMVC.UI.MVC.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public ActionResult About()
         {
             return View();
@@ -19,6 +18,24 @@ namespace PersonalSiteMVC.UI.MVC.Controllers
 
         [HttpGet]
         public ActionResult Portfolio()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult Fed1Studio()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult DungeonApp()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult StoreFrontApp()
         {
             return View();
         }

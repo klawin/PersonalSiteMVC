@@ -3,5 +3,44 @@
     ViewBag.Title = "Portfolio";
 }
 
-<h2>@ViewBag.Title</h2>
+
+<section class="background-gray-lightest">
+    <div class="container">
+        <div class="breadcrumbs">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>@ViewBag.Title</li>
+            </ul>
+        </div>
+        <h1>@ViewBag.Title</h1>
+        <p class="lead">Please feel free to browse through my independent development projects below!</p>
+    </div>
+</section>
+<section class="blog-post">
+    <div class="container">
+
+        <div class="row no-space padding-horizontal">
+            <div class="col-sm-4 col-xs-6">
+                <div class="box"><a href="@Url.Action("Fed1Studio", "Home")" title="" data-title="Portfolio image 3"><img src="~/Content/img/MathletesThumbnail.png" alt="" class="img-responsive"></a></div>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+                <div class="box"><a href="@Url.Action("DungeonApp", "Home")" title="" data-title="Portfolio image 4"><img src="~/Content/img/DungeonAppThumbnail.png" alt="" class="img-responsive"></a></div>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+                <div class="box"><a href="@Url.Action("StoreFrontApp", "Home")" title="" data-title="Portfolio image 5"><img src="~/Content/img/portfolio-5.jpg" alt="" class="img-responsive"></a></div>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+                <div class="box"><a href="~/Content/img/portfolio-6.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 6"><img src="~/Content/img/portfolio-6.jpg" alt="" class="img-responsive"></a></div>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+                <div class="box"><a href="~/Content/img/portfolio-7.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 7"><img src="~/Content/img/portfolio-7.jpg" alt="" class="img-responsive"></a></div>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+                <div class="box"><a href="~/Content/img/portfolio-8.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 8"><img src="~/Content/img/portfolio-8.jpg" alt="" class="img-responsive"></a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
