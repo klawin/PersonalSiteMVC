@@ -177,6 +177,7 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AdminViewModel.cs" />
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -211,6 +212,19 @@
     <Content Include="Content\img\carousel1.jpg" />
     <Content Include="Content\img\carousel2.jpg" />
     <Content Include="Content\img\carousel3.jpg" />
+    <Content Include="Content\img\classmates\austinWallace.jfif" />
+    <Content Include="Content\img\classmates\benjaminMcdaniel.jfif" />
+    <Content Include="Content\img\classmates\connorDunn.jfif" />
+    <Content Include="Content\img\classmates\ianMcclaflin.jfif" />
+    <Content Include="Content\img\classmates\jazmineRizo.jfif" />
+    <Content Include="Content\img\classmates\justinPeacock.jfif" />
+    <Content Include="Content\img\classmates\mattRoberts.jfif" />
+    <Content Include="Content\img\classmates\michaelRedifer.jfif" />
+    <Content Include="Content\img\classmates\noAvi.gif" />
+    <Content Include="Content\img\classmates\paytonVanholten.jfif" />
+    <Content Include="Content\img\classmates\romeoBagunu.jfif" />
+    <Content Include="Content\img\classmates\seanMckinney.jfif" />
+    <Content Include="Content\img\classmates\zakarySisler.jfif" />
     <Content Include="Content\img\DungeonAppThumbnail.png" />
     <Content Include="Content\img\Image-1.jpg" />
     <Content Include="Content\img\jumbotron1.jpg" />
@@ -321,6 +335,7 @@
     <Content Include="Content\css\fonts\Pe-icon-7-stroke.ttf" />
     <Content Include="Content\css\fonts\Pe-icon-7-stroke.woff" />
     <Content Include="Content\js\lightbox.min.map" />
+    <Content Include="config\AppSecretKeys.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -394,6 +409,7 @@
     <Content Include="Views\Home\Fed1Studio.cshtml" />
     <Content Include="Views\Home\DungeonApp.cshtml" />
     <Content Include="Views\Home\StoreFrontApp.cshtml" />
+    <Content Include="Views\Home\Links.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,20 +1,69 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<hgroup>
-    <h2>@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
-</hgroup>
-<div>
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
-
-    <address>
-        <i class="icon-envelope"></i><strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <i class="icon-envelope"></i><strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
-</div>
+<section class="background-gray-lightest">
+    <div class="container">
+        <div class="breadcrumbs">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <h1>Contact</h1>
+      
+    </div>
+</section>
+<section>
+    <div id="contact" class="container">
+        
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="box-simple">
+                    <div class="icon"><i class="pe-7s-pen"></i></div>
+                    <div class="content">
+                        <h4>Contact form</h4>
+                        <p class="text-muted">All messages will be sent to my personal email. I will get back to you as soon as possible. Thank you for contacting me!</p>
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="firstname">First Name</label>
+                                        <input id="firstname" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="lastname">Last Name</label>
+                                        <input id="lastname" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input id="email" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="subject">Subject</label>
+                                        <input id="subject" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea id="message" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="map"></div>
