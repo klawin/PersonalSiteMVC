@@ -336,6 +336,7 @@
     <Content Include="Content\css\fonts\Pe-icon-7-stroke.woff" />
     <Content Include="Content\js\lightbox.min.map" />
     <Content Include="config\AppSecretKeys.config" />
+    <Content Include="Content\Kayla Nguyen Resume IT.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -410,6 +411,7 @@
     <Content Include="Views\Home\DungeonApp.cshtml" />
     <Content Include="Views\Home\StoreFrontApp.cshtml" />
     <Content Include="Views\Home\Links.cshtml" />
+    <Content Include="Views\Home\EmailConfirmation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

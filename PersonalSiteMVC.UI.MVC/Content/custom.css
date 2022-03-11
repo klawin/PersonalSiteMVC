@@ -3,3 +3,13 @@
     margin-right: 2em;
     border: 2px solid #ef5285;
 }
+
+header {
+    background-color: #333333;
+}
+
+/* Contact Page*/
+
+#FirstName, #LastName, #Email, #Subject, #Message, button.submit {
+    margin: 1em;
+}
