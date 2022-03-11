@@ -1,12 +1,82 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Resume";
 }
-<hgroup>
-    <h2>@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
-</hgroup>
-<div class="row-fluid">
-    <div class="span12">
-        <p>Use this area to provide additional information.</p>
+
+<section class="background-gray-lightest">
+    <div class="container">
+        <div class="breadcrumbs">
+            <ul class="breadcrumb">
+                <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                <li>@ViewBag.Title</li>
+            </ul>
+        </div>
+        <img id="picture" src="~/Content/img/Image-1.jpg" style="height: 300px;"/>
+        <h1>Kayla Nguyen</h1>
+        <p class="lead">.NET | C# | JavaScript | SQL | MVC</p>
     </div>
-</div>
+</section>
+
+<section class="blog-post">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="post-content margin-bottom--big">
+                    <p><strong>Innovative, efficient, and deadline-driven Developer</strong> with completed training in front end, middle tier, and back end development.</p>
+                    <h2>Education</h2>
+                    <blockquote>
+                        <h3>Full Stack Web Development | Centriq Training Institute</h3>
+                        <h4>Kansas City, MO</h4>
+                        <h5>Jan 2022 - April 2022</h5>
+                        <p>An IT technology training firm in Kansas City, Missouri that hosts an accelerated Full Stack Web Development program in .NET, HTML, CSS, JavaScript, SQL, MVC and more.</p>
+                    </blockquote>
+                    <blockquote>
+                        <h3>High School Diploma | Winnetonka High School</h3>
+                        <h4>Kansas City, MO</h4>
+                        <h5>Aug 2011 - May 2016</h5>
+                        <p>Completed High School track with Honors in Mathematics and Communication Arts. Participated in extracurricular activities including AVID, Math Club, DECA and soccer.</p>
+                    </blockquote>
+                    <h2>Professional Experience</h2>
+                    <blockquote>
+                        <h3>Child Care Worker | Independent</h3>
+                        <h4>Lenexa, KS</h4>
+                        <h5>Dec 2020 - Jan 2022</h5>
+                        <ul>
+                            <li>Maintained a safe play environment.</li>
+                            <li>Observed and monitoreed newborn twins' play activities.</li>
+                            <li>Communicated with twins' parents about daily activities, behaviors, and related issues.</li>
+                            <li>Supported twins' emotional and social development, encouraging understanding of others and positive self-concepts.</li>
+                        </ul>
+                    </blockquote>
+                    <blockquote>
+                        <h3>Cage Cashier | Argosy Casino</h3>
+                        <h4>Riverside, MO</h4>
+                        <h5>Dec 2019 - Oct 2020</h5>
+                        <ul>
+                            <li>Followed all gaming regulations.</li>
+                            <li>Managed and accurately counted a cash/chip bank of about $106,000.</li>
+                            <li>Provided customer service in a busy environment.</li>
+                            <li>Converted gaming checks, coupons, tokens, or coins to currency for gaming patrons.</li>
+                        </ul>
+                    </blockquote>
+                    <h2>Skills</h2>
+                    <blockquote>
+                        <ul>
+                            <li>Problem-solving</li>
+                            <li>Critical thinking</li>
+                            <li>Mathematics</li>
+                            <li>Organization</li>
+                            <li>Customer Service</li>
+                            <li>Office365</li>
+                            <li>C#</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>MVC</li>
+                        </ul>
+                    </blockquote>
+                </div>
+                <!-- /.post-content-->
+            </div>
+        </div>
+      
+    </div>
+</section>
