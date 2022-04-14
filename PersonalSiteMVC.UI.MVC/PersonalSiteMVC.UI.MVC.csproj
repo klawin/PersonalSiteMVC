@@ -188,6 +188,7 @@
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\css\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\css\fonts\Pe-icon-7-stroke.svg" />
+    <Content Include="Content\css\styles.css" />
     <Content Include="Content\css\helper.css" />
     <Content Include="Content\css\lightbox.css" />
     <Content Include="Content\css\lightbox.min.css" />
@@ -199,6 +200,7 @@
     <Content Include="Content\css\style.red.css" />
     <Content Include="Content\css\style.sea.css" />
     <Content Include="Content\css\style.violet.css" />
+    <Content Include="Content\css\venobox.css" />
     <Content Include="Content\custom.css" />
     <Content Include="Content\favicon.png" />
     <Content Include="Content\img\blog-avatar.jpg" />
@@ -256,6 +258,11 @@
     <Content Include="Content\js\lightbox.js" />
     <Content Include="Content\js\lightbox.min.js" />
     <Content Include="Content\js\map.js" />
+    <Content Include="Content\js\myscript.js" />
+    <Content Include="Content\js\venobox.js" />
+    <Content Include="Content\swiper\swiper-bundle.min.css" />
+    <Content Include="Content\swiper\swiper-bundle.min.js" />
+    <Content Include="Scripts\custom.js" />
     <Content Include="_Archive\OriginalContent\bootstrap-theme.css" />
     <Content Include="_Archive\OriginalContent\bootstrap-theme.min.css" />
     <Content Include="_Archive\OriginalContent\bootstrap.css" />
@@ -337,6 +344,7 @@
     <Content Include="Content\js\lightbox.min.map" />
     <Content Include="config\AppSecretKeys.config" />
     <Content Include="Content\Kayla Nguyen Resume IT.pdf" />
+    <Content Include="Content\js\imageData.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

@@ -1,0 +1,48 @@
+{
+  "images": [
+    {
+      "name": "Image one",
+      "imgSource": "https://unsplash.it/1200/800/?random"
+    },
+    {
+      "name": "Image two",
+      "imgSource": "https://unsplash.it/1200/801/?random"
+    },
+    {
+      "name": "Image three",
+      "imgSource": "https://unsplash.it/1200/802/?random"
+    },
+    {
+      "name": "Image four",
+      "imgSource": "https://unsplash.it/1201/800/?random"
+    },
+    {
+      "name": "Image five",
+      "imgSource": "https://unsplash.it/1202/800/?random"
+    },
+    {
+      "name": "Image six",
+      "imgSource": "https://unsplash.it/1203/800/?random"
+    },
+    {
+      "name": "Image seven",
+      "imgSource": "https://unsplash.it/1204/800/?random"
+    },
+    {
+      "name": "Image eight",
+      "imgSource": "https://unsplash.it/1201/801/?random"
+    },
+    {
+      "name": "Image nine",
+      "imgSource": "https://unsplash.it/1202/802/?random"
+    },
+    {
+      "name": "Image ten",
+      "imgSource": "https://unsplash.it/1203/803/?random"
+    },
+    {
+      "name": "Image eleven",
+      "imgSource": "https://unsplash.it/1204/804/?random"
+    }
+  ]
+}

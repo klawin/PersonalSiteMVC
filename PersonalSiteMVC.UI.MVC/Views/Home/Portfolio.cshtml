@@ -4,8 +4,8 @@
 }
 
 @section stylesheets {
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="http://resources/demos/style.css">
 }
 
 <section class="background-gray-lightest">
@@ -24,60 +24,39 @@
     <div class="container">
 
         <div id="accordion">
-            <h3>Section 1</h3>
+            <h3>FED 1 Studio Project - Mathletes</h3>
             <div>
                 <p>
-                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                    Nam mi. Proin viverra leo ut odio.
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="box"><a href="@Url.Action("Fed1Studio", "Home")" title="" data-title="Portfolio image 3"><img src="~/Content/img/MathletesThumbnail.png" alt="" class="img-responsive"></a></div>
+                    </div>
                 </p>
             </div>
-            <h3>Section 2</h3>
+            <h3>Dungeon Application - Charmed</h3>
             <div>
                 <p>
-                    Sed non urna. Phasellus eu ligula. Vestibulum sit amet purus.
-                    Vivamus hendrerit, dolor aliquet laoreet, mauris turpis velit,
-                    faucibus interdum tellus libero ac justo.
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="box"><a href="@Url.Action("DungeonApp", "Home")" title="" data-title="Portfolio image 4"><img src="~/Content/img/DungeonAppThumbnail.png" alt="" class="img-responsive"></a></div>
+                    </div>
                 </p>
             </div>
             <h3>Section 3</h3>
             <div>
                 <p>
-                    Nam enim risus, molestie et, porta ac, aliquam ac, risus.
-                    Quisque lobortis.Phasellus pellentesque purus in massa.
+                    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
                 </p>
-                <ul>
-                    <li>List item one</li>
-                    <li>List item two</li>
-                    <li>List item three</li>
-                </ul>
             </div>
-        </div>
-
-
-
-
-
-
-        <div class="row no-space padding-horizontal">
-            <div class="col-sm-4 col-xs-6">
-                <div class="box"><a href="@Url.Action("Fed1Studio", "Home")" title="" data-title="Portfolio image 3"><img src="~/Content/img/MathletesThumbnail.png" alt="" class="img-responsive"></a></div>
-            </div>
-            <div class="col-sm-4 col-xs-6">
-                <div class="box"><a href="@Url.Action("DungeonApp", "Home")" title="" data-title="Portfolio image 4"><img src="~/Content/img/DungeonAppThumbnail.png" alt="" class="img-responsive"></a></div>
-            </div>
-            <div class="col-sm-4 col-xs-6">
-                <div class="box"><a href="@Url.Action("StoreFrontApp", "Home")" title="" data-title="Portfolio image 5"><img src="~/Content/img/portfolio-5.jpg" alt="" class="img-responsive"></a></div>
-            </div>
-            <div class="col-sm-4 col-xs-6">
-                <div class="box"><a href="~/Content/img/portfolio-6.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 6"><img src="~/Content/img/portfolio-6.jpg" alt="" class="img-responsive"></a></div>
-            </div>
-            <div class="col-sm-4 col-xs-6">
-                <div class="box"><a href="~/Content/img/portfolio-7.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 7"><img src="~/Content/img/portfolio-7.jpg" alt="" class="img-responsive"></a></div>
-            </div>
-            <div class="col-sm-4 col-xs-6">
-                <div class="box"><a href="~/Content/img/portfolio-8.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 8"><img src="~/Content/img/portfolio-8.jpg" alt="" class="img-responsive"></a></div>
+            <h3>Section 4</h3>
+            <div>
+                <p>
+                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                    mauris vel est.
+                </p>
             </div>
         </div>
     </div>
@@ -86,8 +65,10 @@
 
 
 @section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script>
-        $("#accordion").accordion();
-    </script>
-    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> }
+        $(function () {
+            $("#accordion").accordion();
+        });
+    </script> }
