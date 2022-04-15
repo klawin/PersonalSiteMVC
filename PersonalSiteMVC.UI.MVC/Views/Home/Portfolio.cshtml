@@ -5,7 +5,7 @@
 
 @section stylesheets {
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="http://resources/demos/style.css">
+    
 }
 
 <section class="background-gray-lightest">
@@ -26,36 +26,56 @@
         <div id="accordion">
             <h3>FED 1 Studio Project - Mathletes</h3>
             <div>
-                <p>
-                    <div class="col-sm-4 col-xs-6">
-                        <div class="box"><a href="@Url.Action("Fed1Studio", "Home")" title="" data-title="Portfolio image 3"><img src="~/Content/img/MathletesThumbnail.png" alt="" class="img-responsive"></a></div>
+                <div>
+                    <div class="col-md-4">
+                        <a href="@Url.Action("Fed1Studio", "Home")" title="" data-title="Portfolio image 3"><img src="~/Content/img/MathletesThumbnail.png" alt="" class="img-responsive"></a>
                     </div>
-                </p>
+                    <div class="col-md-6">
+                        <blockquote>
+                            Using only HTML and CSS. For this project, I had to imagine that I am building a website for a small business that provides instructional courses in Mathematics.
+                            <br />
+                            <br />
+                            Click on the image to learn more.
+                        </blockquote>
+                    </div>
+                </div>
             </div>
             <h3>Dungeon Application - Charmed</h3>
             <div>
                 <p>
-                    <div class="col-sm-4 col-xs-6">
-                        <div class="box"><a href="@Url.Action("DungeonApp", "Home")" title="" data-title="Portfolio image 4"><img src="~/Content/img/DungeonAppThumbnail.png" alt="" class="img-responsive"></a></div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="box">
+                            <a href="@Url.Action("DungeonApp", "Home")" title="" data-title="Portfolio image 4"><img src="~/Content/img/DungeonAppThumbnail.png" alt="" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <blockquote>
+                            The Dungeon Application is intended to showcase my C# skills. It allowed me to demonstrate my ability to break down multi-stage processes into steps and to design complex logical structures.
+                            <br />
+                            <br />
+                            Click on the image to learn more.
+                        </blockquote>
                     </div>
                 </p>
             </div>
-            <h3>Section 3</h3>
-            <div>
+            <h3>Storefront Application - Life in L.E.C.A</h3>
+            <div>   
                 <p>
-                    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-                    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-                    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-                    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-                </p>
-            </div>
-            <h3>Section 4</h3>
-            <div>
-                <p>
-                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-                    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-                    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-                    mauris vel est.
+                    <div class="col-md-4 col-xs-6">
+                        <div class="box">
+                            <a href="@Url.Action("StoreFrontApp", "Home")" title="" data-title="Portfolio image 5"><img src="~/Content/img/Storefront-thumbnail.png" alt="" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <blockquote class="col-md-6">
+                        The StoreFront Application is intended to showcase my ability to build fullstack web applications.
+                        For this project, I had to build a mock e-commerce site. I designed the database that is used for the application. I
+                        progressively expanded the functionality of this application throughout my MVC classes. When pushing content to the repo for this project, I ensured that all sensitive data is obscured.
+                        <br />
+                        <br />
+                        Click on the image to learn more.
+                    </blockquote>
+                      
+                    
                 </p>
             </div>
         </div>
