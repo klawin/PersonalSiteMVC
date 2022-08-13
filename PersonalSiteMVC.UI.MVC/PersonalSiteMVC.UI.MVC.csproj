@@ -203,6 +203,7 @@
     <Content Include="Content\css\venobox.css" />
     <Content Include="Content\custom.css" />
     <Content Include="Content\favicon.png" />
+    <Content Include="Content\img\aboutMePic.png" />
     <Content Include="Content\img\blog-avatar.jpg" />
     <Content Include="Content\img\blog-avatar2.jpg" />
     <Content Include="Content\img\blog1.jpg" />
